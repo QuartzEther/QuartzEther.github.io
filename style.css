@@ -52,11 +52,15 @@ a.selected {
 
 h1 {
 	font-size: 40px;
-    color: #1c2538;
+    color: #edf3ff;
 }
 
 h2 {
 	font-size: 18px;
+}
+
+.container p{
+	color: white;
 }
 
 .container {
@@ -80,7 +84,7 @@ h2 {
 
 header {
 	width: 100%;
-	background: url(images/20200805-Snowmass-Ripples.jpg)  center/cover no-repeat;
+	background: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.45) 100%), url(images/20200805-Snowmass-Ripples.jpg)  center/cover no-repeat;
 	height: 100px;
 	display: flex;
 	justify-content: center;
@@ -192,7 +196,7 @@ footer {
 	position: relative;
 	color: rgb(0, 0, 0);
 	height: 50px;
-	background: url(images/20200805-Snowmass-Ripples.jpg)  bottom/cover no-repeat;
+	background: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.45) 100%),url(images/20200805-Snowmass-Ripples.jpg)  bottom/cover no-repeat;
 
 }
 
