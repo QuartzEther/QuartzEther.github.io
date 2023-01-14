@@ -32,7 +32,7 @@ function preloadStones(sources, callback) {
 			if (++loadedImagesCounter >= sources.length)
 				callback(images);
 		}
-		images[srcName].src = '/img/stones/' + srcName + '.png';
+		images[srcName].src = 'img/stones/' + srcName + '.png';
 	}
 }
 
@@ -44,7 +44,7 @@ function onStonesPreloaded() {
 function loadStonesData() {
 	console.log('loadStonesData');
 
-	fetch('/js/stonesData.json')
+	fetch('js/stonesData.json')
 		.then(response => response.json())
 		.then(result => {
 			stonesData = result;
