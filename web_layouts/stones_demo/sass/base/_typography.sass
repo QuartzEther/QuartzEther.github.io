@@ -1,0 +1,58 @@
+body
+    font-style: normal
+    font-weight: 500
+    
+    color: $paragraph_color
+    font-size: $font-size-paragraph
+    user-select: none
+
+.tittle
+    text-align: center
+    color: $tittle-color
+    text-shadow: $box-shadow
+    &__main
+        //font-size: 6.4rem
+        font-weight: bold
+        font-size: 4rem
+        letter-spacing: 0.2rem
+    &__stone
+        font-size: 3.2rem
+        letter-spacing: 0.1rem
+        font-weight: 600
+    &__result
+        letter-spacing: 0.1rem
+        font-weight: 500
+        font-size: 2.2rem
+        line-height: 2.9rem
+        font-style: italic
+        span
+            font-size: 2rem
+        &_name
+            font-style: normal
+            font-weight: 600
+            font-size: 2.8rem
+            color: #faf7a7
+            span
+                font-size: 2.4rem
+                font-style: italic
+
+        
+        &:not(:last-child)
+            margin-bottom: 2.4rem
+            
+.paragraph
+    text-align: justify
+    font-weight: 400
+    line-height: 2.2rem
+    span
+        font-weight: 600
+    &:not(:last-child)
+        margin-bottom: 2rem
+
+.slogan
+    text-align: right
+    font-style: italic
+    font-weight: bold
+
+
+    //word-break: break-all

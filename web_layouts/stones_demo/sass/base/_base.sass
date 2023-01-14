@@ -1,0 +1,38 @@
+::-webkit-scrollbar
+	width: 0px
+	background: transparent
+
+*, ::after, ::before
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+
+html
+	font-size: 62.5%
+
+	-ms-overflow-style: none //IE 10+
+	scrollbar-width: none //Firefox
+
+
+.my-body
+	&::before
+		content: ''
+		position: fixed
+		left: 0
+		right: 0
+		top: 0
+		bottom: 0
+		z-index: -1
+		background: url("../img/bg_img.jpg") center / cover no-repeat
+	
+
+.container
+	margin: 0 auto
+	background-color: $container-color
+	max-width: $container-width
+	min-height: 100vh
+	position: relative
+	display: flex
+	align-items: center
+	justify-content: center

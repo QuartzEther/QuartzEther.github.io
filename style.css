@@ -141,11 +141,12 @@ nav li {
 	justify-content: space-evenly;
 }
 
+/* Разблочить когда будут колонки
 .works .column {
 	display: flex;
 	flex-direction: column;
 	margin-right: 20px;
-}
+}*/
 
 
 .card {
