@@ -1,6 +1,6 @@
 window.onload = startPreloadChain;
 
-const whiteStonesArr = ['white-stone2', 'white-stone1'];
+const whiteStonesArr = ['white-stone1', 'white-stone2'];
 const blackStonesArr = ['black-stone1', 'black-stone2'];
 const bagsArr = ['bag-white'];
 
@@ -32,7 +32,7 @@ function preloadStones(sources, callback) {
 			if (++loadedImagesCounter >= sources.length)
 				callback(images);
 		}
-		images[srcName].src = './img/stones/' + srcName + '.png';
+		images[srcName].src = '/img/stones/' + srcName + '.png';
 	}
 }
 
