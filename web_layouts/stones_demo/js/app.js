@@ -32,7 +32,7 @@ function preloadStones(sources, callback) {
 			if (++loadedImagesCounter >= sources.length)
 				callback(images);
 		}
-		images[srcName].src = '../img/stones/' + srcName + '.png';
+		images[srcName].src = 'img/stones/' + srcName + '.png';
 	}
 }
 
