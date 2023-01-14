@@ -32,7 +32,7 @@ function preloadStones(sources, callback) {
 			if (++loadedImagesCounter >= sources.length)
 				callback(images);
 		}
-		images[srcName].src = 'img/stones/' + srcName + '.png';
+		images[srcName].src = '../img/stones/' + srcName + '.png';
 	}
 }
 
@@ -67,7 +67,7 @@ function init() {
 }
 
 function initControls() {
-	const dirStonesImg = "../img/stones/";
+	const dirStonesImg = "img/stones/";
 	const fileType = ".png";
 	const timeoutNext = .53;
 	const timeoutSec = 0.3;
