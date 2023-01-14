@@ -67,7 +67,7 @@ function init() {
 }
 
 function initControls() {
-	const dirStonesImg = "/img/stones/";
+	const dirStonesImg = "./img/stones/";
 	const fileType = ".png";
 	const timeoutNext = .53;
 	const timeoutSec = 0.3;
