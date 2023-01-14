@@ -44,7 +44,7 @@ function onStonesPreloaded() {
 function loadStonesData() {
 	console.log('loadStonesData');
 
-	fetch('stonesData.json')
+	fetch('js/stonesData.json')
 		.then(response => response.json())
 		.then(result => {
 			stonesData = result;
