@@ -1,0 +1,89 @@
+body
+    font-family: 'Roboto'
+    font-weight: 400
+    color: $color_grey
+    font-size: $font-size-paragraph
+    letter-spacing: .2rem
+    
+.tittle-first
+    display: flex
+    flex-direction: column
+    align-items: center
+    color: $color_white
+    &__main
+        font-weight: 800
+        font-size: 5rem
+        line-height: 6rem
+        letter-spacing: 1rem
+        text-transform: uppercase
+        margin-bottom: 1rem
+        animation-name: leftToRight
+        animation-duration: 1.7s
+        animation-delay: 1s
+        animation-timing-function: ease
+        @include respond(tab-land)
+            font-size: 4rem
+        @include respond(tab-port)
+            font-size: 3.6rem
+            letter-spacing: .5rem
+            margin-bottom: 0
+
+    &__secondary
+        font-weight: 200
+        font-size: 4rem
+        line-height: 4.8rem
+        letter-spacing: .5rem
+        animation-name: rightToLeft
+        animation-duration: 1.7s
+        animation-delay: 1s
+        animation-timing-function: ease
+        margin-bottom: 5rem
+        @include respond(tab-land)
+            font-size: 3.5rem
+            margin-bottom: 3.5rem
+        @include respond(tab-port)
+            font-size: 3.2rem
+            letter-spacing: .1rem
+
+
+.tittle-secondary
+    display: inline-block
+    font-size: $font-size-paragraph-h2
+    letter-spacing: 1rem
+    text-transform: uppercase
+    font-weight: 800
+    background: $gradient_brown
+    -webkit-background-clip: text
+    color: transparent
+    transition: all .4s
+    backface-visibility: hidden //что бы тень не дергалась
+    @include respond(tab-land)
+        font-size: 3rem
+    @include respond(tab-port)
+        letter-spacing: .6rem
+    &_white
+        background: $color-white
+        -webkit-background-clip: text
+        color: transparent
+    &:hover
+        transform: skew(15deg, 2deg) scale(1.1)
+        text-shadow: $shadow-h2
+
+.tittle-third
+    font-size: $font-size-paragraph-h3
+    letter-spacing: .2rem
+    text-transform: uppercase
+    font-weight: 700
+    @include respond(tab-land)
+        font-size: 1.8rem
+        letter-spacing: .15rem
+
+
+.paragraph
+    font-size: $font-size-paragraph
+    letter-spacing: .2rem
+    line-height: 140%
+    font-weight: 400
+    @include respond(tab-land)
+        font-size: 1.5rem
+        letter-spacing: .1rem
