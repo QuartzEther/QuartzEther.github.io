@@ -1114,10 +1114,15 @@ body {
 }
 .navigation__icon, .navigation__icon::before, .navigation__icon::after {
   width: 3rem;
-  height: 0.2rem;
+  height: 2px;
   background: #000000;
   display: inline-block;
   transition: all 0.2s;
+}
+@media only screen and (max-width: 600px) {
+  .navigation__icon, .navigation__icon::before, .navigation__icon::after {
+    height: 1px;
+  }
 }
 .navigation__icon::before, .navigation__icon::after {
   content: "";
