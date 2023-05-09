@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do It</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="container">
+        <div class="list">
+            <div class="list__header header">
+                <div class="header__toggle-switch toggle-switch">
+                    <input type="checkbox"/>
+                    <div class="round-button">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div class="button-body"></div>
+                    </div>
+                </div>
+                <div class="header__form form"> 
+                    <input type="text" class="header__input input" id="case" placeholder="Add Item" required="" maxlength="100"/>
+                    <button class="header__btn btn btn_pls">+</button>
+                </div>
+            </div>
+            <div class="list__block block block_todo drag-list">
+                <h2 class="block__tittle">to do</h2>
+            </div>
+
+            <div class="list__block block block_complete drag-list">
+                <h2 class="block__tittle">completed</h2>
+            </div>
+
+        </div>
+    </div>
+    <div class="pop-up">
+        <div class="pop-up__menu">
+            <div class="pop-up__form form"> 
+                <textarea rows = "3" class="pop-up__input input" placeholder="Change Item" required="" maxlength="100"></textarea>
+            </div>
+            <div class="pop-up__color-bar color-bar">
+                <input type="radio" name="color" id="red" />
+                <label for="red"><span class="red"></span></label>
+
+                <input type="radio" name="color" id="orange" />
+                <label for="orange"><span class="orange"></span></label>
+
+                <input type="radio" name="color" id="yellow" />
+                <label for="yellow"><span class="yellow"></span></label>
+                
+                <input type="radio" name="color" id="green" />
+                <label for="green"><span class="green"></span></label>
+                
+                <input type="radio" name="color" id="blue" />
+                <label for="blue"><span class="blue"></span></label>
+                
+                <input type="radio" name="color" id="violet" />
+                <label for="violet"><span class="violet"></span></label>
+
+                <input type="radio" name="color" id="base" checked/>
+                <label for="base"><span class="base"></span></label>
+            </div>
+            <div class="pop-up__calendar calendar calendar_big">
+                <input type="date">
+                <div class="calendar__img"></div>
+                <h5 class="calendar__text"></h5>
+            </div>
+            <div class="pop-up__buttons">
+                <button class="pop-up__btn pop-btn pop-btn_del">Delete Item</button>
+                <button class="pop-up__btn pop-btn pop-btn_ok">Ok</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <p class="about__copyright copyright">
+            <a href="https://quartzether.github.io/" target="_blank">Quartz Ether</a><span> © 2023</span></p>
+    </div>
+
+    <script type="module" src="js/toggle.js"></script>
+    <script type="module" src="js/app.js"></script>
+
+</body>
+</html>
+
