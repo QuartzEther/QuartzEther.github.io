@@ -25,7 +25,7 @@ export class Item {
                         <input type="checkbox" ${this.isComplete ? 'checked' : ''} id="checkbox_${this.id}" />
                         <label for="checkbox_${this.id}"></label>
                     </div>
-                    <p class="item__text text">${this.isComplete ? `<strike>${this.text}</strike>` : this.text}</p>
+                    <p class="item__text text ${this.isComplete ? 'text-line' : ''}">${this.text}</p>
                 </div>
                 <div class="item__calendar calendar">
                     <input type="date">

@@ -498,6 +498,8 @@ p {
       color: rgba(244, 244, 244, 0.85); }
     .list_dark-mode p {
       font-weight: 300; }
+      .list_dark-mode p::after {
+        background-color: rgba(244, 244, 244, 0.85); }
     .list_dark-mode .header {
       border-bottom: rgba(255, 255, 255, 0.15) solid 1px; }
 
@@ -737,10 +739,22 @@ input:checked ~ .round-button {
   .item__checkbox {
     margin-right: 1.2rem; }
   .item__text {
+    position: relative;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     padding: 0.5rem 0 0.5rem 0.8rem; }
+
+.text-line::after {
+  content: "";
+  position: absolute;
+  transform: translateY(-50%);
+  right: 0;
+  top: 52%;
+  display: block;
+  width: calc(100% - .8rem);
+  height: 2px;
+  background-color: #1a1a1a; }
 
 .list_dark-mode > .block > .item {
   background-color: #46466D; }
