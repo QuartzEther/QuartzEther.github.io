@@ -239,7 +239,7 @@ function startTest(data){
 
                             for (let i of q) {
                                 ansValues = Object.keys(ans.values[i]).map(el => parseFloat(el)).sort((a, b) => a-b);
-                                ansValues.push(1);
+                                ansValues.push(1.1);
 
                                 let numV = typeof result[i] === "string" ? parseFloat(result[i].split('o')[1]) : null;
                                 ansValues = ansValues.filter((el,ind) => (numV ? numV : result[i]) >=  ansValues[ind] && (numV ? numV : result[i]) < ansValues[ind+1]);
@@ -251,12 +251,15 @@ function startTest(data){
                         
                         if (ans.type === "sam")
                             ansValues = Object.keys(ans.values).map(el => parseFloat(el)).sort((a, b) => a-b);
-                        else if (ans.type === "male" || ans.type === "female")
-                            ansValues = Object.keys(ans.values[result.gender]).map(el => parseFloat(el)).sort((a, b) => a-b);
+                        else if (ans.type === "male" || ans.type === "female") {
+                            if (!result["male"] && !result["female"] && ans.type === "male") ansValues = [2];
+                            else ansValues = Object.keys(ans.values[result.gender]).map(el => parseFloat(el)).sort((a, b) => a-b);
+                        }
                         else
                             ansValues = Object.keys(ans.values[typeof result.undef === "number" ? "oneValue" : "twoValues"]).map(el => parseFloat(el)).sort((a, b) => a-b);
 
-                        ansValues.push(1);
+
+                        ansValues.push(1.1);
 
                         //console.log(ansValues)
 
