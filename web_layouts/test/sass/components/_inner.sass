@@ -1,0 +1,73 @@
+$item-border-size: 2px
+
+.inner
+    &__tittle
+        display: block
+        text-align: center
+        padding: 1rem
+        background-color: $color-border-dark
+        color: $color-bg-light
+        border-radius: 1rem
+        margin-bottom: 4rem
+        width: 90%
+
+    &__text-block
+        margin-bottom: 2.5rem
+
+
+    &__text
+        &:not(:last-child)
+            margin-bottom: 1rem
+    &__question
+        text-align: center
+        font-size: 3rem
+    &__img
+        margin: 3rem 0
+
+.options
+    padding-top: 4rem
+    &__item
+        position: relative
+        padding: 1.2rem
+        border: $item-border-size #a3b6bd solid
+        border-radius: 1rem
+        transition: all .4s ease
+        &:not(:last-child)
+            margin-bottom: 1rem
+        label
+            left: 0
+            font-family: "Roboto"
+            font-style: normal
+            font-weight: 400
+            font-size: 1.8rem
+        input
+            display: none
+        &:hover
+            border: $item-border-size $color-border-light solid
+        &_big
+            border: $item-border-size $color-border-dark solid
+            transform: scale(1.05)
+        &_small
+            transform: scale(0.95)
+
+    &_img
+        display: grid
+        grid-template-rows: repeat(4, 1fr)
+        grid-template-columns: repeat(4, 1fr)
+        grid-gap: 3rem
+
+        .options__item
+            margin-bottom: 0
+            transition: all .4s ease
+            img
+                width: 100%
+            label
+                display: inline-block
+                height: 0
+            &_big
+                transform: scale(1.3)
+            &_small
+                transform: scale(0.6)
+
+
+

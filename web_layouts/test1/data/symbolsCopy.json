@@ -1,0 +1,2173 @@
+{
+    "name": "My test",
+    "srcImg": "../img/symbols/",
+    "progressPercent": false,
+    "answerType": "unique1",
+
+    "description": {
+        "text": "Для каждого слова выберите ассоциацию из предложенных символов.",
+        "btn": "Далее"
+    },
+
+    "questions":[
+        {
+            "text": "Выберите ваш пол",
+            "type": "Gender",
+            "answers":[
+                {
+                    "value": "male",
+                    "text": "Мужской"
+                },
+                {
+                    "value": "female",
+                    "text": "Женский"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Творчество",
+            "type": "M+",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Забота",
+            "type": "F+",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Темнота",
+            "type": "F-",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Уравновешенность",
+            "type": "I+",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Изобилие",
+            "type": "F+",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Барьер",
+            "type": "I-",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Бездна",
+            "type": "F-",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Смерть",
+            "type": "F-",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Защита",
+            "type": "M+",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Страх",
+            "type": "M-",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Сила",
+            "type": "M+",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Плодородие",
+            "type": "F+",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Мудрость",
+            "type": "F+",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Слабость",
+            "type": "M-",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Ловушка",
+            "type": "I-",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Целостность",
+            "type": "I+",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Зависимость",
+            "type": "M-",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Тень",
+            "type": "M-",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Воля",
+            "type": "M+",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Травма",
+            "type": "I-",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Поглощение",
+            "type": "F-",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Несостоятельность",
+            "type": "I-",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Самодостаточность",
+            "type": "I+",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        },
+        {
+            "text": "Единство",
+            "type": "I+",
+            "answers":[
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "circle.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "treangle.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "treangleFemine.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "square.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "davidStar.png"
+                },
+                {
+                    "value": ["sam", "sam"],
+                    "text": "{img}",
+                    "img": "circle&square.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "square&treangle.png"
+                },
+                {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "square&treangleF.png"
+                },
+                {
+                    "value": ["sam", "yang"],
+                    "text": "{img}",
+                    "img": "treangle&circle.png"
+                },         {
+                    "value": ["sam", "yin"],
+                    "text": "{img}",
+                    "img": "treangle&circleF.png"
+                },
+                {
+                    "value": "sam",
+                    "text": "{img}",
+                    "img": "crest.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "star.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "volna.png"
+                },
+                {
+                    "value": "undef",
+                    "text": "{img}",
+                    "img": "point.png"
+                },
+                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "strelka.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "moon.png"
+                }
+            ],
+            "btn": "Далее"
+        }
+    ],
+
+    "answer": {
+        "tittle": "Результат теста",
+        "answers": [
+            {
+                "tittle": "<span>Самость</span>",
+                "type": "sam",
+                "values":{
+                    "0": "1.1 менее 12%",
+                    "0.12": "1.2 более или равно 12% и менее 30%",
+                    "0.3": "1.3 более или равно 30%"
+                }
+            },
+            {
+                "tittle": "<span>Тревожность</span>",
+                "type": "undef",
+                "values":{
+                    "oneValue": {
+                        "-1": "10.4 отрицательная более 25%",
+                        "-0.25": "10.3 отрицательная более или равно 5% и менее 25%",
+                        "-0.5": "пложительная или отрицательная менее 5%",
+                        "0.05": "10.1 положительная более или равно 5% и менее 25%",
+                        "0.25": "10.1 положительная более или равно 25%"
+                    },
+                    "twoValues": {
+                        "0.05": "10.5 положительная + отрицательная более или равно 5% и менее 25%",
+                        "0.25": "10.6 положительная + отрицательная более или равно 25%"
+                    }
+                }
+            },
+            {
+                "tittle": "<span>Mатеринский комплекс</span>",
+                "type": "female",
+                "values":{
+                    "male": {
+                        "-1": "5.3 негативный мужчины более или равно 43%",
+                        "-0.43": "5.2 негативный мужчины более или равно 20% и менее 43%",
+                        "-0.2": "5.1 негативный мужчины более или равно 5% и менее 20%",
+                        "-0.05": "3.0 позитивный мужчины менее 5%",
+                        "0.05": "3.1 позитивный мужчины более или равно 5% и менее 20%",
+                        "0.2": "3.2 позитивный мужчины более или равно 20% и менее 43%",
+                        "0.43": "3.3 позитивный мужчины более или равно 43%"
+                    },
+                    "female": {
+                        "-1": "4.3 негативный женщины более или равно 43%",
+                        "-0.43": "4.2 негативный женщины более или равно 20% и менее 43%",
+                        "-0.2": "4.1 негативный женщины более или равно 5% и менее 20%",
+                        "-0.05": "2.0 позитивный женщины менее 5%",
+                        "0.05": "2.1 позитивный женщины более или равно 5% и менее 20%",
+                        "0.2": "2.2 позитивный женщины более или равно 20% и менее 43%",
+                        "0.43": "2.3 позитивный женщины более или равно 43%"
+                    }
+                }
+            },
+            {
+                "tittle": "<span>Отцовский комплекс</span>",
+                "type": "male",
+                "values":{
+                    "male": {
+                        "-1": "9.3 негативный мужчины более или равно 43%",
+                        "-0.43": "9.2 негативный мужчины более или равно 20% и менее 43%",
+                        "-0.2": "9.1 негативный мужчины более или равно 5% и менее 20%",
+                        "-0.05": "7.0 позитивный мужчины менее 5%",
+                        "0.05": "7.1 позитивный мужчины более или равно 5% и менее 20%",
+                        "0.2": "7.2 позитивный мужчины более или равно 20% и менее 43%",
+                        "0.43": "7.3 позитивный мужчины более или равно 43%"
+                    },
+                    "female": {
+                        "-1": "8.3 негативный женщины более или равно 43%",
+                        "-0.43": "8.2 негативный женщины более или равно 20% и менее 43%",
+                        "-0.2": "8.1 негативный женщины более или равно 5% и менее 20%",
+                        "-0.05": "6.0 позитивный женщины менее 5%",
+                        "0.05": "6.1 позитивный женщины более или равно 5% и менее 20%",
+                        "0.2": "6.2 позитивный женщины более или равно 20% и менее 43%",
+                        "0.43": "6.3 позитивный женщины более или равно 43%"
+                    }
+                }
+            }
+        ]
+    }
+}
