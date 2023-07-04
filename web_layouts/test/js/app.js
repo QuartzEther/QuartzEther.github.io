@@ -15,7 +15,7 @@ function startPreloadChain(){
 function loadData(){
     //console.log('loadData');
 
-    fetch('../data/symbols.json')
+    fetch('./data/symbols.json')
         .then(response=>response.json())
         .then(result=>{
             data = result;

@@ -1,6 +1,6 @@
 {
     "name": "My test",
-    "srcImg": "../img/symbols/",
+    "srcImg": "./img/symbols/",
     "progressPercent": false,
     "answerType": "unique1",
 
