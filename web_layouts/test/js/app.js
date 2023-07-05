@@ -3,6 +3,26 @@ window.onload = startPreloadChain;
 const imgArr = [];
 let data = null;
 
+//консолька
+const values = {male: 'мужчина', female: 'женщина', sam: 'Самость', yang: 'Мужской', yin: 'Женский'}
+const dataImg = {
+    star: 'звезда',
+    strelka: 'стрелочка',
+    treangle: 'треугольник',
+    treangleFemine: 'перевернутый треугольник',
+    volna: 'волна',
+    square: "квадрат",
+    points: "точки",
+    moon: "луна",
+    davidStar: "звезда Давида",
+    crest: "крест",
+    circle: "круг",
+    blitz: "молния"
+}
+
+let userData = [];
+
+
 //------------------------------------------------
 const container = document.querySelector('.container');
 
@@ -15,7 +35,7 @@ function startPreloadChain(){
 function loadData(){
     //console.log('loadData');
 
-    fetch('./data/symbols.json')
+    fetch('./data/symbols1.json')
         .then(response=>response.json())
         .then(result=>{
             data = result;
@@ -199,6 +219,11 @@ function startTest(data){
                         else if (el === "undef") result.undef[1] += 1;
                     }
 
+                    userData.push(`\nСамость: ${result.sam}`,
+                        `${result.female>=0 ? "Позитивный женский комплекс" : "Негативный женский комплекс"} : ${result.female>=0 ? result.female : Math.abs(result.female)}`,
+                        `${result.male>=0 ? "Позитивный мужской комплекс" : "Негативный мужской комплекс"} : ${result.male>=0 ? result.male : Math.abs(result.male)}`);
+
+
                     // просчет коэфициента
                     result.sam /= positiveArr.length + negativeArr.length;
                     result.male /= result.male < 0 ? negativeArr.length : positiveArr.length;
@@ -222,6 +247,18 @@ function startTest(data){
                     }
 
                     console.log(result);
+
+                    userData.push(`\nСамость : ${toPrs(result.sam)}`,
+                        `${result.female>=0 ? "Позитивный женский комплекс" : "Негативный женский комплекс"} : ${toPrs(result.female)}`,
+                        `${result.male>=0 ? "Позитивный мужской комплекс" : "Негативный мужской комплекс"} : ${toPrs(result.male)}`)
+
+
+                    function toPrs(n) {
+                        return Math.abs(parseInt(n*100))+'%';
+                    }
+
+                    alert(userData.join('\n'));
+
 
                     //поиск нужного и Вывод
                     for (let ans of sectionData.answers){
@@ -400,7 +437,7 @@ function startTest(data){
                     if (!inner.querySelector('.inner__option').classList.contains("options_img"))inner.querySelector('.inner__option').classList.add("options_img");
 
                     temp.classList.add("options__item", "item", "item_img");
-                    temp.innerHTML = `<input type="radio" id="item_${ansCounter}" name="options" value="${tempAns.value}">
+                    temp.innerHTML = `<input type="radio" id="item_${ansCounter}" name="options" value="${tempAns.value}" data-img="${tempAns.img.split('.')[0]}">
                         <label htmlFor="item_${ansCounter}"><img src="${data.srcImg + tempAns.img}"></label>`
                 }else {
                     temp.classList.add("options__item", "item");
@@ -529,6 +566,10 @@ function startTest(data){
                 initResultArr(sectionData.type, this.querySelector("input").value);
             } else if (tempItem) {
                 initResultArr(sectionData.type, tempItem.value);
+
+                //консолька
+                userData.push(`${document.getElementsByClassName("inner__question")[0].innerHTML} : ${values[tempItem.value]} (${dataImg[tempItem.dataset['img']]? dataImg[tempItem.dataset['img']] : "не символ"})`)
+                console.log(userData[userData.length - 1]);
             }
 
             for (let btn of buttons){

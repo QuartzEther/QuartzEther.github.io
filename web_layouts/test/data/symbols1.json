@@ -1,6 +1,6 @@
 {
     "name": "My test",
-    "srcImg": "../img/symbols/",
+    "srcImg": "./img/symbols/",
     "progressPercent": false,
     "answerType": "unique1",
 
@@ -55,30 +55,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -94,11 +70,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -107,6 +78,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -141,30 +121,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -180,11 +136,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -193,6 +144,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -227,30 +187,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -266,11 +202,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -279,6 +210,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -313,30 +253,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -352,11 +268,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -365,6 +276,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -399,30 +319,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -438,11 +334,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -451,6 +342,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -485,30 +385,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -524,11 +400,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -537,6 +408,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -571,30 +451,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -610,11 +466,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -623,6 +474,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -657,30 +517,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -696,11 +532,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -709,6 +540,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -743,30 +583,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -782,11 +598,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -795,6 +606,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -829,30 +649,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -868,11 +664,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -881,6 +672,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -915,30 +715,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -954,11 +730,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -967,6 +738,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -1001,30 +781,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -1040,11 +796,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -1053,6 +804,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -1087,30 +847,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -1126,11 +862,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -1139,6 +870,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -1173,30 +913,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -1212,11 +928,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -1225,6 +936,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -1259,30 +979,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -1298,11 +994,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -1311,6 +1002,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -1345,30 +1045,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -1384,11 +1060,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -1397,6 +1068,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -1431,30 +1111,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -1470,11 +1126,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -1483,6 +1134,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -1517,30 +1177,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -1556,11 +1192,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -1569,6 +1200,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -1603,30 +1243,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -1642,11 +1258,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -1655,6 +1266,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -1689,30 +1309,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -1728,11 +1324,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -1741,6 +1332,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -1775,30 +1375,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -1814,11 +1390,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -1827,6 +1398,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -1861,30 +1441,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -1900,11 +1456,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -1913,6 +1464,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -1947,30 +1507,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -1986,11 +1522,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -1999,6 +1530,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -2033,30 +1573,6 @@
                     "img": "davidStar.png"
                 },
                 {
-                    "value": ["sam", "sam"],
-                    "text": "{img}",
-                    "img": "circle&square.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "square&treangle.png"
-                },
-                {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "square&treangleF.png"
-                },
-                {
-                    "value": ["sam", "yang"],
-                    "text": "{img}",
-                    "img": "treangle&circle.png"
-                },         {
-                    "value": ["sam", "yin"],
-                    "text": "{img}",
-                    "img": "treangle&circleF.png"
-                },
-                {
                     "value": "sam",
                     "text": "{img}",
                     "img": "crest.png"
@@ -2072,11 +1588,6 @@
                     "img": "volna.png"
                 },
                 {
-                    "value": "undef",
-                    "text": "{img}",
-                    "img": "point.png"
-                },
-                {
                     "value": "yang",
                     "text": "{img}",
                     "img": "strelka.png"
@@ -2085,6 +1596,15 @@
                     "value": "yin",
                     "text": "{img}",
                     "img": "moon.png"
+                },
+                {
+                    "value": "yin",
+                    "text": "{img}",
+                    "img": "points.png"
+                },                {
+                    "value": "yang",
+                    "text": "{img}",
+                    "img": "blitz.png"
                 }
             ],
             "btn": "Далее"
@@ -2095,6 +1615,41 @@
         "tittle": "Результат теста",
         "answers": [
             {
+                "type": "about",
+                "values":{
+                    "sam":{
+                        "0": "<span>Слаборазвитая Самость</span>",
+                        "0.12": "<span>Хорошо развитая Самость</span>",
+                        "0.3": "<span>Устойчивая Самость</span>"
+                    },
+                    "undef":{
+                        "-1": "<span>Высокий уровень тревожности</span>",
+                        "-0.25": "<span>Повышенный уровень тревожности</span>",
+                        "-0.05": "",
+                        "0.05": "<span>Умеренный уровень тревожности</span>",
+                        "0.25": "<span>Повышенный уровень тревожности</span>"
+                    },
+                    "female":{
+                        "-1": "<span>Ярко выраженный Негативный Материнский комплекс</span>",
+                        "-0.43": "<span>Средне выраженный Негативный Материнский комплекс</span>",
+                        "-0.2": "<span>Слабовыраженный Негативный Материнский комплекс</span>",
+                        "-0.05": "<span>Материнский комплекс отсутствует</span>",
+                        "0.05": "<span>Слабовыраженный Позитивный Материнский комплекс</span>",
+                        "0.2": "<span>Средне выраженный Позитивный Материнский комплекс</span>",
+                        "0.43": "<span>Ярко выраженный Позитивный Материнский комплекс</span>"
+                    },
+                    "male":{
+                        "-1": "<span>Ярко выраженный Негативный Отцовский комплекс</span>",
+                        "-0.43": "<span>Средне выраженный Негативный Отцовский комплекс</span>",
+                        "-0.2": "<span>Слабовыраженный Негативный Отцовский комплекс</span>",
+                        "-0.05": "<span>Отцовский комплекс отсутствует</span>",
+                        "0.05": "<span>Слабовыраженный Позитивный Отцовский комплекс</span>",
+                        "0.2": "<span>Средне выраженный Позитивный Отцовский комплекс</span>",
+                        "0.43": "<span>Ярко выраженный Позитивный Отцовский комплекс</span>"
+                    }
+                }
+            },
+            {
                 "tittle": "<span>Самость</span>",
                 "type": "sam",
                 "values":{
@@ -2103,23 +1658,7 @@
                     "0.3": "1.3 более или равно 30%"
                 }
             },
-            {
-                "tittle": "<span>Тревожность</span>",
-                "type": "undef",
-                "values":{
-                    "oneValue": {
-                        "-1": "10.4 отрицательная более 25%",
-                        "-0.25": "10.3 отрицательная более или равно 5% и менее 25%",
-                        "-0.5": "пложительная или отрицательная менее 5%",
-                        "0.05": "10.1 положительная более или равно 5% и менее 25%",
-                        "0.25": "10.1 положительная более или равно 25%"
-                    },
-                    "twoValues": {
-                        "0.05": "10.5 положительная + отрицательная более или равно 5% и менее 25%",
-                        "0.25": "10.6 положительная + отрицательная более или равно 25%"
-                    }
-                }
-            },
+
             {
                 "tittle": "<span>Mатеринский комплекс</span>",
                 "type": "female",
