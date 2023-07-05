@@ -257,6 +257,8 @@ function startTest(data){
                         return Math.abs(parseInt(n*100))+'%';
                     }
 
+
+                    console.log(userData.join('\n'));
                     alert(userData.join('\n'));
 
 
@@ -569,7 +571,6 @@ function startTest(data){
 
                 //консолька
                 userData.push(`${document.getElementsByClassName("inner__question")[0].innerHTML} : ${values[tempItem.value]} (${dataImg[tempItem.dataset['img']]? dataImg[tempItem.dataset['img']] : "не символ"})`)
-                console.log(userData[userData.length - 1]);
             }
 
             for (let btn of buttons){
